@@ -1,0 +1,134 @@
+/* STYLE */
+/* font-family: 'Bitter', serif;
+font-family: 'Open Sans Condensed', sans-serif; */
+
+
+
+body {
+	background-color: #DEECF9;
+	color:  #66806A;
+	font-family: 'Bitter', serif;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+h1, h2, h3 {
+font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1 {
+	color: #323130;
+	font-size: 34px;
+
+}
+
+h2 {
+	color: #1596D6;
+	font-size: 26px;
+	font-weight: bold;
+}
+
+h3 {
+	color: #606370;
+	font-size: 20px;
+}
+
+a {
+	color: orange;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	transition: color 0.3s ease;
+	text-decoration: none;
+}
+
+a:hover{
+	color: black;
+}
+
+/* Custom Designs with class */
+
+/* center the page content */
+.container {
+	width: 700px;
+	margin: 40px auto;	
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+
+/* background and some shadow */
+.card-white {
+	background-color: white;
+	padding: 25px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+/* circle the picture */
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: #1596D6;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 10px;
+}
+.btn-blue:hover {
+	background-color: #C43E1C;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 0px 5px;
+}
+
+.card-grey li {
+	background-color: grey;
+	padding: 7.5px 10px;
+	margin: 0px 5px;
+	color: white;
+	border-radius: 4%;
+}
+
+/* going INSIDE the list. Descendant selector.
+Selecting element inside the element.
+Just the elements in the class selected. */
+
+#icon-grey {
+	margin: 0px auto;
+	}
+
+#icon-grey i {
+	font-size: 50px;
+	color: rgb(230,230,230);
+}
+
+#icon-grey i:hover {
+	color:  rgb(45,45,45);
+}
+
+
+/*#introduction p {
+	margin-bottom: 25px;
+}
+*/
